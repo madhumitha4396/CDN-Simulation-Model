@@ -1,0 +1,39 @@
+{
+	"asset": {
+		"number_of_objects":300, 
+		"size": [10,500,10]
+		},
+	"origin": {
+        	"number_of_objects":200,
+			"max_connections":[10,500,10],
+			"asset_check_time":[1,50,10],
+			"max_output_throughput": [10000,30000,1024]
+		},
+	"cacheserver": {
+        	"number_of_objects":100,
+			"max_connections":[10,500,10],
+			"time_to_check_cache":[1,50,10],
+			"max_output_throughput": [10000,30000,1024],
+			"max_input_throughput": [10000,30000,1024],
+			"throughput_limit":[1000,2000,1024]
+		},
+	"client": {
+        	"number_of_objects":200,
+			"max_input_throughput": [10000,30000,1024],
+			"max_connections":[10,500,10],
+			"distance_from_cacheservers":[1,100,10]
+		},
+	"request": {
+        	"number_of_objects":200
+		},
+	"workload": {
+        	"number_of_objects":50
+		},
+    "simulation":{
+	     "simulation_duration":500,
+	     "tick_duration": 10,
+	     "tcp_connection_time": 3,
+	     "plot_for_cacheServer": "cacheserver1",
+	     "timeout" : 30
+    }
+}

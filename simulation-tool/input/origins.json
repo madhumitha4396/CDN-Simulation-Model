@@ -1,0 +1,33 @@
+[
+{
+ "id": "origin1",
+  "max_connections": 2,
+  "max_output_throughput": 1024,
+  "asset_check_time": 2,
+  "assets": [ "asset101","asset103"]
+},
+
+{ "id": "origin2",
+  "max_connections": 10,
+  "max_output_throughput": 10,
+  "asset_check_time": 2,
+  "assets": [ "asset102", "asset100"]
+},
+
+{ "id": "origin3",
+  "max_connections": 1000,
+  "max_output_throughput": 5,
+  "asset_check_time": 2,
+  "assets": [ "asset103", "asset100"]
+},
+
+{ "id": "origin4",
+  "max_connections": 450,
+  "max_output_throughput": 25,
+  "asset_check_time": 2,
+  "assets": [ "asset100", "asset101"]
+}
+]
+
+
+

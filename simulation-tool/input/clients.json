@@ -1,0 +1,44 @@
+[
+  { "id": "client1",
+  "max_input_throughput": 512,
+  "max_connections": 2,
+  "distance": {
+    "cacheserver1" : 2,
+    "cacheserver2" : 1,
+    "cacheserver3" : 3
+  }
+},
+
+{ "id": "client2",
+  "max_input_throughput": 1024,
+  "max_connections": 5,
+  "distance": {
+    "cacheserver1" : 1,
+    "cacheserver2" : 4,
+    "cacheserver3" : 2
+    
+  }
+},
+
+{ "id": "client3",
+  "max_input_throughput": 1024,
+  "max_connections": 5,
+  "distance": {
+    "cacheserver1" : 1,
+    "cacheserver2" : 1,
+   "cacheserver3" : 1
+    
+  }
+},
+
+{ "id": "client4",
+  "max_input_throughput": 1024,
+  "max_connections": 5,
+  "distance": {
+    "cacheserver1" : 2,
+    "cacheserver2" : 1,
+  "cacheserver3" : 100
+    
+  }
+}
+]
